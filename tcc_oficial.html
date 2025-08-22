@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>GreenLife</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tcc_oficial.css">
+</head>
+<body>
+    <header id="header">
+        <nav onclick="rolarParaTexto()">
+            QUEM SOMOS NÓS
+        </nav>
+
+        <nav>
+            PARCEIROS
+        </nav>
+
+        <nav>
+            NOSSA EQUIPE
+        </nav>
+
+        <nav>
+            ATIVE NO SEU BAIRRO
+        </nav>
+
+        <nav>
+            PRODUTO
+        </nav>
+
+      <p>
+        <input type="text" placeholder="search">
+    </p>
+    </header>
+
+    <main>
+        <img src="Captura_de_tela_2025-07-31_195730-removebg-preview.png">
+        
+    </main>
+
+    <h3>Parceiros</h3>
+
+        <script>
+            function rolarParaTexto() {
+                document.getElementById('texto3').scrollIntoView({
+                    behavior: 'smooth' // Para um efeito suave de rolagem
+                });
+            }
+        </script>
+
+    <script>
+        // Função para mudar a cor do cabeçalho conforme a rolagem
+        window.onscroll = function() {
+            mudarCorCabecalho();
+        };
+
+        function mudarCorCabecalho() {
+            var header = document.getElementById("header");
+            if (window.scrollY > 10 ) { // Se a rolagem for maior que 50px
+                header.style.color = "#003400"; // Cor de fundo após rolar
+            } else {
+                header.style.color = "beige"; // Cor inicial
+            }
+        }
+    </script>
+
+</body>
+</html>
