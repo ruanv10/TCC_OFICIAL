@@ -194,3 +194,65 @@ nav {
     cursor: pointer;
     border: none;
 }
+
+@media (max-width: 600px) {
+    #header {
+        width: 100%;
+    }
+
+    .logo {
+        width: 400px;
+    }
+
+    main {
+        height: 600px;
+        width: 100%;
+    }
+
+    .texto1 {
+        width: 300px;
+        padding-left: 270px;
+        font-size: 10px;
+
+    }
+
+    .main {
+        font-size: 45px;
+        display: flex;
+        justify-content: end;
+        padding-right: 20px;
+    }
+
+    .img1 {
+        top: 550px;
+        width: 250px;
+        height: 700px;
+        left: 10px;
+        position: absolute;
+        display: flex;
+        justify-content: end;
+        z-index: 2;
+    }
+
+    .img2 {
+    position: absolute;
+    height: 650px;
+    width: 350px;
+    left: 100px; 
+    top: 1600px; 
+    border-radius: 10%;
+    }
+
+    .grid {
+        width: 300px;
+    }
+
+    .parte_final {
+        left: 20px;
+    }
+
+    .footer {
+        width: 100px;
+        display: none;
+    }
+}
