@@ -28,19 +28,22 @@ body {
     background-color: beige;
 }
 
+.home {
+    width: 4rem;
+}
+
 header {
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
     justify-content: space-around;
-    font-size: 12px;
+    font-size: 1rem;
     font-family: Montserrat;
     color: white;
     overflow: auto;
     position: fixed;
     width: 100%;
-    z-index: 1000;
     background-color: transparent;
     transition: background-color 0.3s ease;
 }
@@ -60,10 +63,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(david-clode-xNSCi_K179c-unsplash\ \(1\).jpg);
-    background-position: center;
-    background-size: 1920px 1080px ;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0) ), url(_MG_0219.png);
+    background-position: center center;
+    background-size: cover;
     height: 650px;
+    width: 100%;
 }
 
 #main {
@@ -73,42 +77,34 @@ main {
 .texto1 {
     display: flex;
     justify-content: end;
-    width: 700px;
-    padding-left: 500px;
+    width: 40rem;
+    padding-left: 33rem;
+    margin: 1rem;
+    font-size: 20px;
 }
 
 .main {
-    font-size: 100px;
+    font-size: 5rem;
     font-family: vellago;
     display: flex;
     justify-content: end;
-    padding-right: 50px;
-    padding-top: 80px;
+    padding-right: 8rem;
+    padding-top: 5rem;
     color: #0c4723;
 }
 
 .img1 {
-    width: 400px;
-    height: 800px;
-    left: 50px;
+    width: 25rem;
+    height: 43rem;
+    left: 5rem;
     border-radius: 10%;
     position: absolute;
-    z-index: 2;
-    top: 600px;
+    top: 43rem;
 }
 
 #second {
     background-color: #0c4723;
     height: 600PX;
-}
-
-.img2 { 
-    position: absolute;
-    height: 650px;
-    width: 350px;
-    left: 900px; 
-    top: 1600px; 
-    border-radius: 10%;
 }
 
 .titulo_do_produto, .titulo {
@@ -134,9 +130,8 @@ main {
     display: flex;
     font-family: vellago;
     font-size: 90px;
-    position: absolute;
-    padding-top: 80px;
-    left: 300px;
+    padding-top: 6rem;
+    justify-content: center;
 }
 
 .oficial {
@@ -147,18 +142,17 @@ main {
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 70px;
+    gap: 40px;
     justify-content: center;
     align-content: center;
     height: 800px;
-    padding-top: 150px;
     position: relative;
 
 }
 
 .staff {
-    width: 200px;
-    height: 200px;
+    width: 12rem;
+    height: 16rem;
 }
 
 figure {
@@ -173,6 +167,10 @@ figure {
     font-family: vellago;
 }
 
+figcaption {
+    font-size: 15px;
+}
+
 .img3 {
     width: 300px;
     padding-left: 200px;
@@ -182,11 +180,13 @@ figure {
 .footer {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 200px;
+    padding-top: 5rem;
+    justify-content: center;
 }
 
 .end {
-    width: 250px;
+    width: 20rem;
+    margin: 1rem;
 }
 
 nav {
@@ -213,7 +213,6 @@ nav {
 
     main {
         height: 30rem;
-        width: 100%;
         display: flex;
         justify-content: center;
     }
@@ -221,7 +220,6 @@ nav {
     .texto1 {
         display: flex;
         justify-content: center;
-        font-size: 13px;
         padding: 0;
         padding-left: 1rem;
         width: 22rem;
@@ -303,4 +301,10 @@ nav {
         gap: 30px;
         padding-left: 2rem;
     }
+
+    .end {
+        width: 10rem;
+        margin: 10px;
+    }
+
 }
