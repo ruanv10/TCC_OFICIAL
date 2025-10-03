@@ -48,12 +48,6 @@ header {
     transition: background-color 0.3s ease;
 }
 
-header input {
-    border-radius: 10px;
-    opacity: 50%;
-    padding-left: 10px;
-}
-
 .gp {
     display: flex;
     justify-content: center;
@@ -146,8 +140,6 @@ main {
     justify-content: center;
     align-content: center;
     height: 800px;
-    position: relative;
-
 }
 
 .staff {
@@ -172,9 +164,9 @@ figcaption {
 }
 
 .img3 {
-    width: 300px;
-    padding-left: 200px;
-    padding-top: 100px;
+    width: 60rem;
+    height: 20rem;
+    padding-left: 8rem;
 }
 
 .footer {
@@ -185,8 +177,31 @@ figcaption {
 }
 
 .end {
-    width: 20rem;
+    width: 70rem;
     margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: urbanist;
+}
+
+.end2 {
+    width: 70rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 3rem;
+    font-family: urbanist;
+}
+
+.destaque {
+    color: #0c4723;
+}
+
+.ds2 {
+    color: purple;
+}
+
+.ds3 {
+    color: #0c4723;
 }
 
 nav {
@@ -195,16 +210,19 @@ nav {
 }
 
 @media (max-width: 760px) {
-    header {
+
+    body {
         width: 100%;
-        font-size: 7px;
-        padding-left: 0;
-        justify-content: space-evenly;
     }
 
-    input {
-        width: 10px;
+    header {
+        font-size: 5px;
         padding-left: 0;
+        padding-right: 0;
+    }
+
+    .home {
+        width: 2rem;
     }
 
     .logo {
@@ -212,7 +230,8 @@ nav {
     }
 
     main {
-        height: 30rem;
+        width: 100%;
+        height: 20rem;
         display: flex;
         justify-content: center;
     }
@@ -222,14 +241,14 @@ nav {
         justify-content: center;
         padding: 0;
         padding-left: 1rem;
-        width: 22rem;
+        width: 20rem;
     }
 
     .main {
         font-size: 45px;
         display: flex;
         justify-content: center;
-
+        padding-right: 0;
     }
 
     .img1 {
@@ -239,6 +258,15 @@ nav {
         display: flex;
         justify-content: center;
         left: 7px;
+        display: none;
+    }
+
+    .titulo_do_produto, .titulo {
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .texto_do_produto {
@@ -246,6 +274,10 @@ nav {
         font-size: 1rem;
         justify-content: start;
         padding-left: 0;
+    }
+
+    #second {
+        height: 400px;
     }
 
     .img2 {
@@ -303,8 +335,6 @@ nav {
     }
 
     .end {
-        width: 10rem;
-        margin: 10px;
+        width: 3rem;
     }
-
 }
