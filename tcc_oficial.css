@@ -48,6 +48,13 @@ header {
     transition: background-color 0.3s ease;
 }
 
+nav {
+    transition-duration: 0.4s;
+}
+
+nav:hover {
+    text-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
 .gp {
     display: flex;
     justify-content: center;
@@ -63,6 +70,22 @@ main {
     height: 650px;
     width: 100%;
 }
+
+.staff {
+    animation: fadeIn 2s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
 
 #main {
     height: 500px;
@@ -166,7 +189,7 @@ figcaption {
 .img3 {
     width: 60rem;
     height: 20rem;
-    padding-left: 8rem;
+    padding-left: 10rem;
 }
 
 .footer {
@@ -185,10 +208,9 @@ figcaption {
 }
 
 .end2 {
-    width: 70rem;
+    width: 100%;
     font-size: 2rem;
     text-align: center;
-    padding-left: 3rem;
     font-family: urbanist;
 }
 
@@ -216,6 +238,7 @@ nav {
     }
 
     header {
+        width: 100%;
         font-size: 5px;
         padding-left: 0;
         padding-right: 0;
@@ -252,9 +275,9 @@ nav {
     }
 
     .img1 {
-        top: 44rem;
-        width: 25rem;
-        height: 15rem;
+        top: 22rem;
+        width: 8rem;
+        height: 30rem;
         display: flex;
         justify-content: center;
         left: 7px;
@@ -280,48 +303,44 @@ nav {
         height: 400px;
     }
 
-    .img2 {
-    position: absolute;
-    height: 650px;
-    width: 100px;
-    left: 100px; 
-    top: 1600px; 
-    border-radius: 10%;
-    display: none;
-    }
-
     figcaption {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .grid {
         width: 100%;
         display: grid;
         grid-template-columns: auto auto;
-        height: 100%;
+        height: 180px;
         position:initial;
-        gap: 10px;
-        padding-top: 15rem;
+        padding-top: 25rem;
         justify-content: center;
+        gap: 40px;
     }
 
     .staff {
-        width: 10rem;
-        height: 10rem;
+        width: 8em;
+        height: 200px;
+    }
+
+    figcaption {
+        font-size: 10px;
     }
 
     .parte_final {
-        left: 20px;
+        font-size: 3rem;
+        padding-top: 2rem;
     }
 
     .parceiros {
-        font-size: 20px;
+        font-size: 3rem;
     }
 
     .img3 {
-        width: 5rem;
-        display: grid;
-        grid-template-columns: 2fr;
+        width: 23rem;
+        height: 14rem;
+        display: flex;
+        justify-content: center;
         padding: 0;
     }
 
@@ -336,5 +355,13 @@ nav {
 
     .end {
         width: 3rem;
+        font-size: 20px;
     }
+
+    .end2 {
+        width: 3rem;
+        font-size: 1px;
+        padding-left: 1rem;
+    }
+
 }
