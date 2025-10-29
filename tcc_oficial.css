@@ -18,6 +18,11 @@
     src: url(Urbanist-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Poppins;
+    src: url("Poppins-Medium.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -94,6 +99,8 @@ main {
 }
 
 .texto1 {
+    color: #0c4723;
+    font-family: Poppins;
     display: flex;
     justify-content: end;
     width: 40rem;
@@ -115,7 +122,6 @@ main {
 .img1 {
     width: 25rem;
     height: 43rem;
-    left: 5rem;
     border-radius: 10%;
     position: absolute;
     top: 43rem;
@@ -132,16 +138,17 @@ main {
     font-family: vellago;
     font-size: 100px;
     padding-right: 50px;
-    padding-top: 20px;
     color: beige;
     position: relative;
 }
 
 .texto_do_produto {
+    display: flex;
+    justify-content: center;
     width: 500px;
     font-size: 25px;
     padding-left: 40px;
-    font-family: vellago;
+    font-family: Poppins;
     color: beige;
 }
 
@@ -264,16 +271,19 @@ nav {
     .texto1 {
         display: flex;
         justify-content: center;
+        text-align: end;
         padding: 0;
-        padding-left: 1rem;
-        width: 20rem;
+        padding-left: 8rem;
+        width: 15rem;
     }
 
     .main {
         font-size: 45px;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         padding-right: 0;
+        text-align: center;
+
     }
 
     .img1 {
@@ -283,7 +293,6 @@ nav {
         display: flex;
         justify-content: center;
         left: 7px;
-        display: none;
     }
 
     .titulo_do_produto, .titulo {
@@ -297,7 +306,6 @@ nav {
     .texto_do_produto {
         width: 100%;
         font-size: 1rem;
-        justify-content: start;
         padding-left: 0;
     }
 
@@ -419,7 +427,6 @@ nav {
         display: flex;
         justify-content: center;
         left: 7px;
-        display: none;
     }
 
     .titulo_do_produto, .titulo {
@@ -433,7 +440,7 @@ nav {
     .texto_do_produto {
         width: 100%;
         font-size: 1rem;
-        justify-content: start;
+        justify-content: center;
         padding-left: 0;
     }
 
@@ -505,6 +512,136 @@ nav {
 }
 
 @media (min-width: 992px) {
+    
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        font-size: 5px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .home {
+        width: 2rem;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto1 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        padding-left: 1rem;
+        width: 20rem;
+    }
+
+    .main {
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .img1 {
+        top: 22rem;
+        width: 8rem;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        left: 7px;
+    }
+
+    .titulo_do_produto, .titulo {
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .texto_do_produto {
+        width: 100%;
+        font-size: 1rem;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    #second {
+        height: 400px;
+    }
+
+    figcaption {
+        font-size: 15px;
+    }
+
+    .grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 180px;
+        position:initial;
+        padding-top: 25rem;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .staff {
+        width: 8em;
+        height: 200px;
+    }
+
+    figcaption {
+        font-size: 10px;
+    }
+
+    .parte_final {
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+
+    .parceiros {
+        font-size: 3rem;
+    }
+
+    .img3 {
+        width: 23rem;
+        height: 14rem;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .footer {
+        width: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        gap: 30px;
+        padding-left: 2rem;
+    }
+
+    .end {
+        width: 3rem;
+        font-size: 20px;
+    }
+
+    .end2 {
+        width: 3rem;
+        font-size: 1px;
+        padding-left: 1rem;
+    }
 
 }
 
@@ -588,6 +725,7 @@ main {
 .texto1 {
     display: flex;
     justify-content: end;
+    text-align: end;
     width: 40rem;
     padding-left: 33rem;
     margin: 1rem;
@@ -595,22 +733,35 @@ main {
 }
 
 .main {
+    margin: 0;
     font-size: 5rem;
     font-family: vellago;
     display: flex;
     justify-content: end;
-    padding-right: 8rem;
-    padding-top: 5rem;
+    padding-right: 10rem;
+    padding-top: 4rem;
     color: #0c4723;
 }
 
+.main2 {
+    margin: 0;
+    font-size: 6rem;
+    font-family: vellago;
+    display: flex;
+    justify-content: end;
+    padding-right: 4rem;
+    color: #0c4723;
+    margin-top: -50px;
+    font-size: 7rem;
+}
+
 .img1 {
-    width: 25rem;
-    height: 43rem;
-    left: 5rem;
-    border-radius: 10%;
+    width: 50rem;
+    height: 60rem;
     position: absolute;
-    top: 43rem;
+    top: 55rem;
+    padding: 0;
+    margin: -10rem;
 }
 
 #second {
@@ -621,23 +772,27 @@ main {
 .titulo_do_produto, .titulo {
     display: flex;
     justify-content: end;
+    text-align: end;
     font-family: vellago;
-    font-size: 100px;
-    padding-right: 50px;
-    padding-top: 20px;
+    font-size: 90px;
     color: beige;
-    position: relative;
+    padding-right: 7rem;
 }
 
 .texto_do_produto {
-    width: 500px;
+    display: flex;
+    justify-content: center;
+    width: 50rem;
     font-size: 25px;
-    padding-left: 40px;
-    font-family: vellago;
+    font-family: Poppins;
     color: beige;
+    padding-left: 22rem;
+    padding-top: 30px;
+    text-align: end;
 }
 
 .parte_final {
+    color: #0c4723;
     display: flex;
     font-family: vellago;
     font-size: 90px;
@@ -651,18 +806,18 @@ main {
 }
 
 .grid {
-
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 40px;
     justify-content: center;
     align-content: center;
     height: 800px;
+    padding: 0  ;
 }
 
 .staff {
     width: 12rem;
-    height: 16rem;
+    height: 18rem;
 }
 
 figure {
@@ -679,6 +834,13 @@ figure {
 
 figcaption {
     font-size: 15px;
+}
+
+.grid2 {
+    width: 200px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .footer {
