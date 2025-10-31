@@ -21,6 +21,8 @@
 @font-face {
     font-family: Poppins;
     src: url("Poppins-Medium.ttf");
+    font-family: POBOLD;
+    src: url("Poppins-Black.ttf");
 }
 
 * {
@@ -172,6 +174,11 @@ main {
     justify-content: center;
     align-content: center;
     height: 800px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .staff {
@@ -796,23 +803,52 @@ main {
     display: flex;
     font-family: vellago;
     font-size: 90px;
-    padding-top: 6rem;
+    padding-top: 4rem;
     justify-content: center;
 }
 
 .oficial {
     align-items: center;
-    height: 700px;
+    height: 2200px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 40px;
     justify-content: center;
     align-content: center;
     height: 800px;
-    padding: 0  ;
+    padding-top: 11rem;
+}
+
+.gr {
+    width: 200px;
+    grid-column: 1 /  1;
+}
+
+.gr2 {
+    width: 450px;
+}
+
+.gr3 {
+    width: 450px;
+    grid-column: 1;
+}
+
+.gr4 {
+    width: 200px;
+    grid-column: 3 / 3;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 200px 240px auto;
+    align-items: center;
+    justify-content: center;
+    position: initial;
+    padding-top: 13rem;
+    gap: 10px;
 }
 
 .staff {
@@ -824,64 +860,50 @@ figure {
     font-family: urbanist;
 }
 
+.finish {
+    height: 1200px;
+    background-color: #1F3922;
+}
+
 .parceiros {
+    display: flex;
+    font-size: 50px;
+    padding-top: 10rem;
+    font-family: Poppins;
+    color: #F2EADF;
+}
+
+.pr {
+    font-family: POBOLD;
     display: flex;
     justify-content: center;
     font-size: 100px;
-    padding-top: 50rem;
-    font-family: vellago;
+    margin-top: -50px;
+    color: #f0fd71;
+}
+
+.bordam {
+    font-family: Poppins;
+    font-size: 23px;
+    color: #F2EADF;
+    display: flex;
+    justify-content: center;
+}
+
+.texto_parceiros {
+    font-family: Poppins;
+    font-size: 25px;
+    color: #F2EADF;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    width: 935px;
+    padding-left: 12rem;
+    padding-top: 5rem;
+
 }
 
 figcaption {
     font-size: 15px;
-}
-
-.grid2 {
-    width: 200px;
-    height: auto;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.footer {
-    padding-top: 5rem;
-    width: 100%;
-    margin: 0;
-
-}
-
-.end {
-    display: flex;
-    justify-content: center;
-    width: 70rem;
-    margin: 1rem;
-    font-size: 2rem;
-    text-align: center;
-    font-family: urbanist;
-}
-
-.end2 {
-    display: flex;
-    width: 100%;
-    font-size: 2rem;
-    text-align: center;
-    font-family: urbanist;
-}
-
-.destaque {
-    color: #0c4723;
-}
-
-.ds2 {
-    color: purple;
-}
-
-.ds3 {
-    color: #0c4723;
-}
-
-nav {
-    cursor: pointer;
-    border: none;
 }
 }
