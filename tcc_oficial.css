@@ -228,119 +228,74 @@ header {
 }
 
 #main {
-    height: 100%;
+    height: auto;
 }
 
 main {
     width: 100%;
     height: 20rem;
+    display: flex;
+    justify-content: center;
 }
 
 .texto1 {
     font-family: Poppins;
     display: flex;
-    justify-content: end;
-    text-align: end;
+    justify-content: center;
+    text-align: start;
     padding: 0;
-    padding-left: 10rem;
-    width: 23rem;
+    font-size: 15px;
+    width: 22rem;
 }
 .main {
+    padding: 0;
     padding-top: 2rem;
     font-size: 3rem;
     display: flex;
-    justify-content: end;
-    padding-right: 90px;
+    justify-content: center;
     text-align: center;
-    }
+}
 
 .main2 {
     margin: 0;
     font-size: 6rem;
     font-family: vellago;
     display: flex;
-    justify-content: end;
-    padding-right: 2rem;
+    justify-content: center;
     color: #0c4723;
-    margin-top: -32px;
-    font-size: 4rem;
+    margin-top: -20px;
+    font-size: 3rem;
 }
 
 .img1 {
-    top: 25rem;
-    width: 28rem;
-    height: 40rem;
+    margin: -7em;
+    top: 26rem;
+    width: 25rem;
+    height: 30rem;
     display: flex;
     justify-content: center;
     left: 7px;
-    margin: -7rem;
+    display: none;
 }
 
 .titulo_do_produto, .titulo {
     display: flex;
-    justify-content: end;
-    text-align: end;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
     font-family: vellago;
-    font-size: 60px;
+    font-size: 3rem;
     color: beige;
-    padding-right: 3rem;
-}
-
-<<<<<<< HEAD
-    #main {
-        height: auto;
-    }
-
-    main {
-        width: 100%;
-        height: 20rem;
-        display: flex;
-        justify-content: center;
-    }
-
-    .main2 {
-        margin: 0;
-        font-size: 6rem;
-        font-family: vellago;
-        display: flex;
-        justify-content: center;
-        color: #0c4723;
-        margin-top: -20px;
-        font-size: 50px;
-    }
-
-    .texto1 {
-        display: flex;
-        justify-content: center;
-        text-align: start;;
-        padding: 0;
-        font-size: 15px;
-        width: auto;
-    }
-
-    .main {
-        font-size: 45px;
-        display: flex;
-        justify-content: center;
-        padding-top: 1rem;
-        padding-left: 8rem;
-        text-align: center;
-=======
-.titulo {
-    padding-right: 10rem;
 }
 
 .texto_do_produto {
-    display: flex;
-    justify-content: center;
-    width: 25rem;
-    font-size: 20px;
-    font-family: Poppins;
-    color: beige;
-    padding-left: 12rem;
-    padding-top: 30px;
+    width: auto;
+    font-size: 14px;
+    padding-left: 1rem;
     text-align: start;
+    padding-bottom: 10px;
 }
+
 #second {
     width: 100%;
     height: 400px;
@@ -349,6 +304,7 @@ main {
 figcaption {
     font-size: 15px;
 }
+
 .parte_final {
     color: #0c4723;
     display: flex;
@@ -358,7 +314,28 @@ figcaption {
     justify-content: center;
     text-align: center;
 }
->>>>>>> d273d659df49aa09c03f5296fe909157d07096a9
+
+.gr {
+    width: 150px;
+    grid-column: 1 /  1;
+}
+
+.gr2 {
+    width: 337px;
+}
+
+#second {
+    height: auto;
+}
+
+.oficial {
+    height: auto;
+}
+
+.parte_final {
+    padding-top: 2rem;
+    font-size: 45px;
+}
 
 .grid {
     width: 100%;
@@ -366,94 +343,11 @@ figcaption {
     grid-template-columns: auto auto;
     height: 180px;
     position:initial;
-    padding-top: 25rem;
+    padding-top: 21rem;
     justify-content: center;
-    gap: 40px;
+    gap:10px;
 }
 
-<<<<<<< HEAD
-    .img1 {
-        margin: -7em;
-        top: 26rem;
-        width: 25rem;
-        height: 30rem;
-        display: flex;
-        justify-content: center;
-        left: 7px;
-        display: none;
-    }
-=======
-    
-.gr {
-    width: 150px;
-    grid-column: 1 /  1;
-}
->>>>>>> d273d659df49aa09c03f5296fe909157d07096a9
-
-.gr2 {
-    width: 337px;
-}
-
-<<<<<<< HEAD
-    .texto_do_produto {
-        width: auto;
-        font-size: 14px;
-        padding-left: 1rem;
-        text-align: start;
-        padding-bottom: 10px;
-    }
-
-    #second {
-        height: auto;
-    }
-
-    .oficial {
-        height: auto;
-    }
-
-    .parte_final {
-        padding-top: 2rem;
-        font-size: 45px;
-    }
-=======
-.gr3 {
-    width: 337px;
-    grid-column: 1;
-}
-
-.gr4 {
-    width: 150px;
-    grid-column: 3 / 3;
-}
->>>>>>> d273d659df49aa09c03f5296fe909157d07096a9
-
-.grid2 {
-    display: grid;
-    grid-template-columns: 150px 180px auto;
-    align-items: center;
-    justify-content: center;
-    position: initial;
-    padding-top: 25rem;
-    gap: 10px;
-}
-.oficial {
-    width: 100%;
-    align-items: center;
-    height: 1800px;
-}
-
-<<<<<<< HEAD
-    .grid {
-        width: 100%;
-        display: grid;
-        grid-template-columns: auto auto;
-        height: 180px;
-        position:initial;
-        padding-top: 20rem;
-        justify-content: center;
-        gap: 40px;
-    }
-}
 .gr {
     width: 100px;
     grid-column: 1/ 1;
@@ -479,46 +373,23 @@ figcaption {
     align-items: center;
     justify-content: center;
     position: initial;
-    padding-top: 20rem;
+    padding-top: 23rem;
     gap: 10px;
     padding-bottom: 2rem;
-=======
+}
+
 .staff {
     width: 8em;
     height: 200px;
 }
+
 figcaption {
     font-size: 1px;
     width: 140px;
 }
-.finish {
-    width: 100%;
-    height: 1200px;
-    background-color: #1F3922;
->>>>>>> d273d659df49aa09c03f5296fe909157d07096a9
-}
-
-.parceiros {
-    display: flex;
-    font-size: 45px;
-    padding-top: 8rem;
-    font-family: Poppins;
-    color: #F2EADF;
-}
-
-.pr {
-    font-family: POBOLD;
-    display: flex;
-    justify-content: center;
-    font-size: 93px;
-    margin-top: -50px;
-    color: #f0fd71;
-}
-
-<<<<<<< HEAD
     
 .finish {
-    height: 600px;
+    height: auto;
     background-color: #1F3922;
 }
 
@@ -559,33 +430,10 @@ figcaption {
     width: auto;
     padding-left: 1rem;
     padding-top: 2rem;
-=======
-.bordam {
-    font-family: Poppins;
-    font-size: 20px;
-    color: #F2EADF;
-    display: flex;
-    justify-content: center;
-}
-
-.texto_parceiros {
-    font-family: Poppins;
-    font-size: 25px;
-    color: #F2EADF;
-    display: flex;
-    justify-content: center;
-    text-align: start;
-    width: 500px;
-    padding-left: 2rem;
-    padding-top: 5rem;
-
 }
 
 figcaption {
     font-size: 15px;
-}
->>>>>>> d273d659df49aa09c03f5296fe909157d07096a9
-
 }
 
 .sp {
@@ -593,6 +441,7 @@ figcaption {
     display: flex;
     justify-content: space-evenly;
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .green {
@@ -607,6 +456,120 @@ figcaption {
     height: 50px;
     background-color: beige;
     border-radius: 10%;
+}
+
+.ative {
+    background-color: beige;
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+.impacto {
+    font-family: POBOLD;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    width: 18rem;
+    color: #1F3922;
+}
+
+.gf {
+    color: #89AD65;
+}
+
+.im {
+    font-family: Poppins;
+    font-size: 0.5rem;
+    width: 14rem;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    color: #1F3922;
+}
+
+.map {
+    width: 180px;
+    height: 150px;
+    border-radius: 10%;
+    margin: 1rem;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1FR 1FR;
+}
+
+.cestas {
+    width: 10.2rem;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    padding-top: 3rem;
+    color: #1F3922;
+}
+
+.bairro{
+    font-size: 0.5rem;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 80px;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    margin-top: 1rem;
+    background: #108C0E;
+    background: linear-gradient(90deg, rgba(16, 140, 14, 1) 0%, rgba(29, 219, 26, 1) 50%);
+}
+
+.BENEFÍCIOS {
+    height: 300px;
+    background: #1F3922;
+}
+
+.benefícios {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.sol {
+    height: 600px;
+}
+
+.solicitar {
+    font-family: POBOLD;
+    font-size: 2rem;
+    color: #0c4723;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.passos {
+    font-family: Poppins;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.passo_a_passo {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ps {
+    font-family: Poppins;
+    font-size: 0.9rem;
+    width: 11.1rem;
+    text-align: center;
+    color: #0c4723;
+}
+
 }
 
 @media (min-width: 768px) {
