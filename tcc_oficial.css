@@ -202,12 +202,6 @@ figcaption {
     font-size: 15px;
 }
 
-.img3 {
-    width: 60rem;
-    height: 20rem;
-    padding-left: 10rem;
-}
-
 @media (max-width: 600px) {
 body {
     width: 100%;
@@ -522,7 +516,7 @@ button {
 }
 
 .BENEFÍCIOS {
-    height: 300px;
+    height: 250px;
     background: #1F3922;
 }
 
@@ -532,7 +526,7 @@ button {
     color: beige;
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .sol {
@@ -562,12 +556,27 @@ button {
     gap: 20px;
 }
 
+.pt {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.planta {
+    width: 60px;
+    height: auto;
+}
+
 .ps {
     font-family: Poppins;
     font-size: 0.9rem;
     width: 11.1rem;
     text-align: center;
     color: #0c4723;
+}
+
+.mao {
+    display: none;
 }
 
 }
@@ -1002,7 +1011,7 @@ main {
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     gap: 40px;
     justify-content: center;
     align-content: center;
@@ -1049,8 +1058,9 @@ figure {
 }
 
 .finish {
-    height: 1200px;
+    height: auto;
     background-color: #1F3922;
+    padding-bottom: 10rem;
 }
 
 .parceiros {
@@ -1093,5 +1103,180 @@ figure {
 
 figcaption {
     font-size: 15px;
+}
+
+
+.sp {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.green {
+    width: 300px;
+    height: auto;
+    background-color: beige;
+    border-radius: 50px;
+}
+
+.grnn {
+    width: 300px;
+    height: 150px;
+    background-color: beige;
+    border-radius: 50px;
+    background-size: 50px;
+}
+
+.ative {
+    background-color: beige;
+    height: 800px;
+    padding-bottom: 3rem;
+}
+
+.impacto {
+    font-family: POBOLD;
+    font-size: 3rem;
+    padding-top: 10rem;
+    padding-left: 6rem;
+    width: 40rem;
+    color: #1F3922;
+}
+
+.gf {
+    color: #89AD65;
+}
+
+.im {
+    font-family: Poppins;
+    font-size: 1rem;
+    width: 28rem;
+    padding-left: 6rem;
+    padding-top: 0.3rem;
+    color: #1F3922;
+}
+
+.map {
+    width: 400px;
+    height: auto;
+    border-radius: 10%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 550px auto;
+}
+
+.cestas {
+    width: 26rem;
+    font-family: Poppins;
+    font-size: 2rem;
+    padding-top: 6rem;
+    color: #1F3922;
+    font-weight: bold;
+}
+
+.bairro{
+    font-size: 0.8rem;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: POBOLD;
+    border-radius: 80px;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    margin-top: 1rem;
+    background: #108C0E;
+    background: linear-gradient(90deg, rgba(16, 140, 14, 1) 0%, rgba(29, 219, 26, 1) 50%);
+}
+
+.BENEFÍCIOS {
+    height: 550px;
+    background: #1F3922;
+}
+
+.benefícios {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.sol {
+    height: 600px;
+}
+
+.solicitar {
+    font-family: POBOLD;
+    font-size: 5rem;
+    color: #0c4723;
+    display: flex;
+    justify-content: center;
+    padding-top: 9rem;
+}
+
+.passos {
+    font-family: Poppins;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mao {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 40rem;
+    top: 290em;
+    transform: rotate(-30deg);
+}
+
+.passo_a_passo {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 6rem;
+    padding-top: 5rem;
+}
+
+.pt {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}
+
+.planta {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.ps {
+    font-family: Poppins;
+    font-size: 2rem;
+    width: 21.5rem;
+    text-align: center;
+    color: #0c4723;
+}
+
+.folha {
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    margin-top: -26rem;
+    margin-left: -9rem;
+    transform: rotate(-18deg);
+}
+
+.one {
+
 }
 }
