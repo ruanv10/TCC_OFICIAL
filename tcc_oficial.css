@@ -291,8 +291,10 @@ main {
 }
 
 #second {
+    padding-top: 2rem;
     width: 100%;
-    height: 400px;
+    height: auto;
+    padding-bottom: 2rem;
 }
 
 figcaption {
@@ -529,8 +531,21 @@ button {
     padding-top: 2rem;
 }
 
+.pt {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}
+
+.planta {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
 .sol {
-    height: 600px;
+    height: auto;
+    padding-bottom: 2rem;
 }
 
 .solicitar {
@@ -554,6 +569,7 @@ button {
     grid-template-columns: auto auto;
     justify-content: center;
     gap: 20px;
+    padding-top: 2rem;
 }
 
 .pt {
@@ -577,6 +593,47 @@ button {
 
 .mao {
     display: none;
+}
+
+.folha {
+    display: none;
+}
+
+.fot {
+    display: flex;
+    justify-content: space-evenly;
+    background:#1F3922;
+    padding-top: 2rem;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+ul {
+    width: 70px;
+    color: white;
+    font-family: Poppins;
+    font-size: 6px;
+    text-align: start;
+}
+
+.env {
+    width: 20px;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.foo {
+    padding-bottom: 2rem;
+    font-size: 10px;
+}
+
+.numero {
+    padding-top: 1rem;
+}
+
+.linha {
+    height: 150px;
+    border-right: 1px solid white;
 }
 
 }
@@ -879,6 +936,7 @@ header {
     width: 100%;
     background-color: transparent;
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 nav {
@@ -1211,7 +1269,8 @@ button {
 }
 
 .sol {
-    height: 600px;
+    height: auto;
+    padding-bottom: 5rem;
 }
 
 .solicitar {
@@ -1276,7 +1335,41 @@ button {
     transform: rotate(-18deg);
 }
 
-.one {
-
+.fot {
+    display: flex;
+    justify-content: space-evenly;
+    background:#1F3922;
+    padding-top: 5rem;
+    height: auto;
+    padding-bottom: 5rem;
 }
+
+ul {
+    width: 190px;
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: start;
+}
+
+.env {
+    width: 30px;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.foo {
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+
+.numero {
+    padding-top: 1rem;
+}
+
+.linha {
+    height: 200px;
+    border-right: 1px solid white;
+}
+
 }

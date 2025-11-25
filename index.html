@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tcc_oficial.css">
 </head>
-<body class="inicio">
+<body id="inicio" class="inicio">
     <header id="header">
-        <nav><img class="home" src="33055324322e783a2799aa80544b2b8b40dfcf33.png"></nav>
 
-        <nav>
+        <nav href="#inicio"><img class="home" src="33055324322e783a2799aa80544b2b8b40dfcf33.png">
+        </nav>
+
+        <nav href="#main">
             QUEM SOMOS NÓS
         </nav>
 
-        <nav>
+        <nav href="#parceiros">
             PARCEIROS
         </nav>
 
-        <nav>
+        <nav href="#parte_final">
             NOSSA EQUIPE
         </nav>
 
-        <nav>
+        <nav href="#ative">
             ATIVE NO SEU BAIRRO
         </nav>
 
-        <nav>
+        <nav href="#second">
             PRODUTO
         </nav>
     </header>
@@ -86,7 +88,7 @@
         </div>
     </section>
 
-    <section class="finish">
+    <section id="parceiros" class="finish">
         <p class="parceiros">CONHEÇA NOSSOS</p>
         <SPAn class="pr">PARCEIROS</SPAn>
         <p class="bordam">Quando sustentabilidade e tecnologia se unem, o impacto é real.</p>
@@ -99,7 +101,7 @@
         </p>
     </section>
 
-    <section class="ative">
+    <section id="ative" class="ative">
         <p class="impacto">LEVE O IMPACTO <span class="gf">GREEN</span> PARA O SEU BAIRRO!</p>
         <p class="im">SOLICITE JÁ A INSTALAÇÃO DAS CESTAS GREENLIFE E AJUDE A TRANSFORMAR A SUA RUA: GRATUITAMENTE!</p>
         <div class="grid3">
@@ -125,27 +127,64 @@
         <p class="solicitar">COMO SOLICITAR?</p>
         <p class="passos">É BEM SIMPLES, SIGA OS SEGUINTES PASSOS:</p>
         <div class="passo_a_passo">
-            <p class="ps"><span class="one">1</span> <br>PREENCHA SEU ENDEREÇO</p>
+            <p class="ps"><span class="one">1 </span> <br>PREENCHA SEU ENDEREÇO</p>
             <p class="ps">2 <br>A EQUIPE GREENLIFE ANALISA A VIABILIADE</p>
             <p class="ps">4 <br>SEU BAIRRO ENTRA PRO MAPA GREEN</p>
             <p class="ps">3 <br>AS CESTAS SÃO INSTALADAS</p>
         </div>
     </section>
 
-    <script>
-        // Função para mudar a cor do cabeçalho conforme a rolagem
-        window.onscroll = function() {
-            mudarCorCabecalho();
-        };
+    <footer class="fot">
+        <ul>
+           <p class="foo"> CONTACT US</p>
+          <p></p> <img class="env" src="d95b31b7875825404a09ad02d15b708e9a64feb5.png" alt="">
+           <img class="env" src="c556462d6f564b3447cb0cd5d3c901f25a51dac1.png" alt="">
+           <img class="env" src="ff306b8597c1b58b678c3f7f291562b4c343a800.png" alt="">
+            i.greenlifetcc@gmail.com
+           <p class="numero">(11)099278778</p>
+        </ul>
+<div class="linha"></div>
+        <ul>
+               <p class="foo">WEBSITE:</p> QUEM SOMOS NOSSOS ATIVE AGORA NOSSA EQUIPE PRODUTO
+        </ul>
+<div class="linha"></div>
+        <ul>
+           <p class="foo">AGRADECIMENTOS</p> AGRADECEMOS A GESTÃO ECOLAR DA E.E MIGUEL SANSIGOLO, AOS PROFESSORES MATEUS BORGES, NEIDE DIAS E TACIANA OLIVEIRA
+        </ul>
+    </footer>
 
-        function mudarCorCabecalho() {
-            var header = document.getElementById("header");
-            if (window.scrollY > 10 ) { // Se a rolagem for maior que 50px
-                header.style.color = "#f0fd71"; // Cor de fundo após rolar
-            } else {
-                header.style.color = "beige"; // Cor inicial
-            }
-        }
+    <script>
+        document.querySelectorAll('header nav').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+    
+                const target = document.querySelector(this.getAttribute('href'));
+    
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+                }
+            });
+        });
     </script>
+
+<script>
+    // Função para mudar a cor do cabeçalho conforme a rolagem
+    window.onscroll = function() {
+        mudarCorCabecalho();
+    };
+
+    function mudarCorCabecalho() {
+        var header = document.getElementById("header");
+        if (window.scrollY > 10 ) { // Se a rolagem for maior que 50px
+            header.style.color = "#f0fd71"; // Cor de fundo após rolar
+        } else {
+            header.style.color = "beige"; // Cor inicial
+        }
+    }
+</script>
+    
 </body>
 </html>
