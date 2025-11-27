@@ -145,11 +145,8 @@ main {
 }
 
 .texto_do_produto {
-    display: flex;
-    justify-content: center;
     width: 500px;
     font-size: 25px;
-    padding-left: 40px;
     font-family: Poppins;
     color: beige;
 }
@@ -236,10 +233,11 @@ main {
     font-family: Poppins;
     display: flex;
     justify-content: center;
-    text-align: start;
+    text-align: justify;
     padding: 0;
+    padding-left: 1rem;
     font-size: 15px;
-    width: 22rem;
+    width: 19rem;
 }
 .main {
     padding: 0;
@@ -283,11 +281,15 @@ main {
 }
 
 .texto_do_produto {
-    width: auto;
+    width: 19rem;
     font-size: 14px;
-    padding-left: 1rem;
-    text-align: start;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
     padding-bottom: 10px;
+    align-items: center;
+    padding-left: 2.2rem;
 }
 
 #second {
@@ -422,9 +424,9 @@ figcaption {
     color: #F2EADF;
     display: flex;
     justify-content: center;
-    text-align: start;
-    width: auto;
-    padding-left: 1rem;
+    text-align: justify;
+    width: 19rem;
+    padding-left: 2.2rem;
     padding-top: 2rem;
 }
 
@@ -586,9 +588,15 @@ button {
 .ps {
     font-family: Poppins;
     font-size: 0.9rem;
-    width: 11.1rem;
+    width: 10rem;
     text-align: center;
     color: #0c4723;
+}
+
+.one {
+    width: 30px;
+    height: auto;
+    opacity: 50%;
 }
 
 .mao {
@@ -634,6 +642,12 @@ ul {
 .linha {
     height: 150px;
     border-right: 1px solid white;
+}
+
+.pix {
+    font-family: Poppins;
+    font-size: 8px;
+    padding-top: 1rem;
 }
 
 }
@@ -1370,6 +1384,12 @@ ul {
 .linha {
     height: 200px;
     border-right: 1px solid white;
+}
+
+.pix {
+    font-family: Poppins;
+    font-size: 20px;
+    padding-top: 1rem;
 }
 
 }
