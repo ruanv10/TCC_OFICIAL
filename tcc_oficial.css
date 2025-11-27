@@ -73,7 +73,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0) ), url("_MG_0219.png");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
+    background-image: url("_MG_0219.png");
     background-position: center center;
     background-size: cover;
     height: 650px;
