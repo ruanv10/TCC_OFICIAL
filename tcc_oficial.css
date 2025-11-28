@@ -65,7 +65,7 @@ nav:hover {
 }
 
 .gp {
-    display: flex;
+    display: flex;  
     justify-content: center;
 }
 
@@ -73,7 +73,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url("Design\ sem\ nome\ \(1\).jpg");
+    background-image: url("Design\ sem\ nome\ \(1\).jpg");
     background-position: center center;
     background-size: cover;
     height: 650px;
