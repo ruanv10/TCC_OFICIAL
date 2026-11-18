@@ -73,7 +73,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("Design\ sem\ nome\ \(1\).jpg");
+    background-image: url("img/GREELIFE.jpg");
     background-position: center center;
     background-size: cover;
     height: 650px;
@@ -196,6 +196,11 @@ figure {
     font-family: urbanist;
 }
 
+figure:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .parceiros {
     display: flex;
     justify-content: center;
@@ -206,6 +211,12 @@ figure {
 
 figcaption {
     font-size: 15px;
+}
+
+button:hover {
+    color: #0c4723;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 @media (max-width: 600px) {
@@ -470,6 +481,7 @@ figcaption {
     height: auto;
     padding-bottom: 3rem;
 }
+
 
 .impacto {
     font-family: POBOLD;
